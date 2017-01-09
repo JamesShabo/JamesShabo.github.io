@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "3",
+    "grunt-cli": "^1.2.0",
+    "sass": "^0.5.0"
+  }
+}
