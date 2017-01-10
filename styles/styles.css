@@ -35,7 +35,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-
 html{
   height:100%;
 }
@@ -118,10 +117,10 @@ h1{
   border-style: solid;
   border-color:#fff;
   border-top:0px;
-  background:url("https://techyuga.com/wp-content/uploads/2016/09/Processor-CPU-Motherboard-Board-Blue-Circuits-Circuit-Computer-WallpapersByte-com-1920x1080.jpg");
+  background-color: #0091BE;
 }
 
-.TL-1, .TL-2, .TL-3, .TL-5{
+.TL-1, .TL-2, .TL-3, .TL-5, .TL-6, .TL-9, .TL-10{
   background-color:#5da8f4   !important;
 }
 
@@ -197,7 +196,7 @@ h1{
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
+  border-color: transparent #5da8f4 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -216,8 +215,6 @@ time {
   font-weight: bold;
   margin-bottom: 8px;
 }
-
-
 
 
 @media screen and (max-width: 900px) {
