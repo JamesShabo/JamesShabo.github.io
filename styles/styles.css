@@ -79,6 +79,21 @@ input,textarea{
   border-radius:2px;
 }
 
+#send_button{
+  width:50px;
+  color:white;
+  background-color: red;
+}
+
+#main-container{
+  position: absolute;
+  min-width: 100%;
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #2c3e50, #3498db);
+  background: -o-linear-gradient(right, #2c3e50, #3498db);
+  background: linear-gradient(to left, #2c3e50, #3498db); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}         
+
 #center-container{ 
   max-width:800px;
   margin-left: 250px;
@@ -150,7 +165,7 @@ input,textarea{
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
+  background: #000;
 }
  
 .timeline ul li::after {
@@ -166,7 +181,7 @@ input,textarea{
 }
 
 .timeline ul {
-  background: #456990;
+  
 }
 
 .timeline ul li {
@@ -196,6 +211,7 @@ input,textarea{
   width: 400px;
   padding: 15px;
   background: #F45B69;
+  border:1px solid white;
 }
 
 .timeline ul li div::before {
@@ -204,7 +220,7 @@ input,textarea{
   bottom: 7px;
   width: 0;
   height: 0;
-  border-style: solid;
+  border-style:solid;
 }
 
 
