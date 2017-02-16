@@ -20,7 +20,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  background: #F45B69;
+  background: #5D6D7E;
   padding: 100px 0;
 }
 
@@ -61,28 +61,38 @@ h1{
 }
 
 time {
-  color:#000;
+  color:#283747;
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
+.contactLabel{
+  margin: 0px;
+  color:#2E4053;
+}
+
 form{
   padding:10px;
   width:300px;
+  margin:20px;
+  margin-left:240px;
   border:1px solid white;
+  background-color: #D0D3D4;
 }
 
-input,textarea{
+input,
+textarea{
   border-style: none;
   border-radius:2px;
 }
 
 #send_button{
-  width:50px;
-  color:white;
-  background-color: red;
+  margin-left: 80px;
+  width:70px;
+  color:#ECF0F1;
+  background-color: #7B7D7D;
 }
 
 #main-container{
@@ -155,7 +165,11 @@ input,textarea{
 }
 
 .blue{
-  background-color:#5da8f4 !important;
+  background-color: #2874A6 !important;
+}
+
+.red{
+  background-color: #CB4335 !important;
 }
 
 .timeline ul li {
@@ -177,10 +191,6 @@ input,textarea{
   height: 30px;
   border-radius: 50%;
   background: inherit;
-}
-
-.timeline ul {
-  
 }
 
 .timeline ul li {
@@ -209,7 +219,7 @@ input,textarea{
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #F45B69;
+  background: #E74C3C;
   border:1px solid white;
 }
 
@@ -248,17 +258,17 @@ input,textarea{
 /*---Color of Triangles to match box---*/
 
 li:nth-child(even) .red::before{
-  border-left-color:#F45B69 !important;
+  border-left-color:#CB4335 !important;
 }
 
 li:nth-child(odd) .red::before{
-  border-right-color:#F45B69 !important ;
+  border-right-color:#CB4335!important ;
 }
 
 li:nth-child(even) .blue::before{
-  border-left-color:#5da8f4 !important ;
+  border-left-color:#2874A6 !important ;
 }
 
 li:nth-child(odd) .blue::before{
-  border-right-color:#5da8f4 !important ;
+  border-right-color:#2874A6 !important ;
 }
